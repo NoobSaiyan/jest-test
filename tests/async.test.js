@@ -1,4 +1,4 @@
-const { sumAsync, subtractAsync } = require('./math')
+const { sumAsync, subtractAsync } = require('../utils/math')
 
 // Promises
 test('promise returns sum in async', () => {
